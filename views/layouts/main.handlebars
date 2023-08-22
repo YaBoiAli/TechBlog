@@ -1,31 +1,35 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Tech Blog</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/login">Login</a></li>
-        <li><a href="#" id="logout-link">Logout</a></li>
-      </ul>
-    </nav>
 
-    <header>
-      <h1>The Tech Blog</h1>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tech Blog</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
 
-    <main>
-      {{{body}}}
-    </main>
+<body class="flex-column min-100-vh">
+  <nav class="navbar">
+    <ul>
+      <li class="li-inline nav-item"><a href="/">Home</a></li>
+      <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
+      <li class="li-inline nav-item"><a href="/login">Login</a></li>
+      <li class="li-inline nav-item"><a href="#" id="logout-link">Logout</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <h1 class="app-title"><a href="/">The Tech Blog</a></h1>
+  </header>
 
-    <footer>
-      &copy; The Tech Blog
-    </footer>
-  </body>
+  <main class="col-auto">
+    {{{body}}}
+  </main>
 
-  <script src="/js/logout.js"></script>
+  <footer class="flex-row justify-center">
+    &copy; The Tech Blog Folks
+  </footer>
+</body>
+
 </html>
+<script src="/js/logout.js"></script>
