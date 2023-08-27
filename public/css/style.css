@@ -1,15 +1,14 @@
 :root {
-  --primary: #454c54;
-  --secondary: #2d333b;
-  --tertiary: #606770;
-  --light-dark: #7a8189;
-  --dark: #1a1d20; /* Background color for dark theme */
+  --primary: #ccdad1;
+  --secondary: #9caea9;
+  --tertiary: #788585;
+  --light-dark: #6f6866;
+  --dark: #38302e;
   --border-radius: 0.3rem;
 }
 
 * {
   box-sizing: border-box;
-  color: #ccc;
 }
 
 body {
@@ -30,7 +29,7 @@ h5,
 h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--light-dark);
+  color: var(--dark);
   line-height: 1.25;
 }
 
@@ -39,7 +38,7 @@ h2 a:visited {
 }
 
 h2 a {
-  color: var(--light-dark);
+  color: var(--primary);
 }
 
 header {
@@ -60,11 +59,11 @@ p {
 }
 
 input {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #fff;
-  margin: 0 0 5px;
-  padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
 }
 
 .card-header h2 {
@@ -160,7 +159,7 @@ input {
 .footer a {
   display: inline-block;
   padding: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   background-color: var(--dark);
   color: var(--primary);
   border-radius: var(--border-radius);

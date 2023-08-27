@@ -47,4 +47,3 @@ This is a simplified example readme for a CMS-style blog site. The actual implem
 ## Work Cite
 
 Got help from Anthony Parrino a Tutor from Bootcamp spot, worked with him to get started and debug my program!
-
